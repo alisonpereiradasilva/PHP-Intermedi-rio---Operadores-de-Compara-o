@@ -1,0 +1,40 @@
+Operadores de Comparacao e Atribuicao
+
+<?php
+// Operador de Igualdade
+$a = Escola;
+$b = Escola;
+if($a == $b){
+	echo "A Variavel \$b contem o mesmo dado que a variavel \$a, que e: " $a;
+}else
+	echo "Variaveis com valores diferentes";
+echo"<br>";
+//para diferente use (!=)
+--------------------------------------------------------------------------------------------
+// Operador de nao identicidade
+
+$campos = array(
+    'Número',
+    'Nome',
+    'Endereço'
+);
+  
+if (True === $indice = array_search('Número', $campos))
+    echo 'Valor encontrado no indice '. $indice;
+else
+    echo 'Valor não encontrado';
+// para valor identico use (===);
+
+--------------------------------------------------------------------------------------------
+// Operador maioridade e minoridade
+$a = 'Escola';
+$b = 'Escola Linux Solutions';
+
+if($a >= $b || $a == $b || $a === $b){
+	echo "String da variavel a e maior que b";
+}else
+	echo "String da variavel b e maior que a";
+}
+
+// (!== nao identico ; <> diferente ; > ; < ... ) 
+--------------------------------------------------------------------------------------------
